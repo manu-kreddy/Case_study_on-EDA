@@ -41,18 +41,14 @@ Make sure you have Python installed, along with pandas and numpy.
 pip install pandas numpy
 Put your CSV file in the same folder (or adjust the path in the script).
 
-Run it like this:
+**Run it like this:**
 python edacasestudy1.py
 And you’ll see the data summaries right in your terminal.
+**Tools used**
+Python 🐍
+pandas for data wrangling
+numpy for some handy math
 **Final note**
 I hope you find this case study useful.
 I’ve done this to improve my pandas, NumPy, and overall EDA skills.
 I plan on working on more such case studies in the near future — so stay tuned! 
-
-
-🔧 Tools used
-Python 🐍
-
-pandas for data wrangling
-
-numpy for some handy math
