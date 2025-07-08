@@ -1,54 +1,48 @@
-# Case_study_on-EDA
-📊 EDA Case Study: Insurance Data
-Hey there! 👋
-This is a simple little project where I explore an insurance dataset using Python. It’s all about understanding what the data looks like — things like who smokes, which regions people come from, and some basic stats. Nothing fancy, just classic EDA.
+# 📊 Exploratory Data Analysis (EDA) Case Studies
 
-**🚀 What does this do?**
-Loads up an insurance CSV file with pandas.
+This repository contains two Exploratory Data Analysis (EDA) projects performed in Python using pandas, NumPy, Matplotlib, and Seaborn. These case studies demonstrate data cleaning, statistical analysis, and visualization.
 
-Checks out the shape of the data (rows & columns), lists the columns, and looks for any missing stuff.
+## 📁 Project Overview
 
-Prints out the first and last few rows to get a feel for it.
+### 🚀 Case Study 1 - Insurance Dataset EDA
+- Performs detailed EDA on an insurance dataset.
+- Analyzes age, BMI, charges, and region impact.
+- Uses plots like histograms, scatter plots, and box plots to uncover insights.
+- Checks for outliers and correlations.
 
-Counts how many smokers vs non-smokers there are, and how people are spread across regions.
+### ☕ Case Study 2 - Commodity Prices Analysis
+- Analyzes a commodity prices dataset from 1960-2022.
+- Finds max/min prices of Robusta coffee from 1960-1980.
+- Compares price trends and volatility of Arabica vs Robusta coffee.
+- Plots sugar world prices over time.
+- Determines the commodity with the highest average price.
+- Creates new columns based on business rules.
 
-Shows some basic statistics (like averages, min, max) for both numbers and categories.
 
-It’s basically a first pass to see what we’re working with before building models or charts.
+## ⚙️ Requirements
 
-**📝 The data**
-This uses a typical insurance dataset. It usually has columns like:
+Install the following Python libraries (can use `pip`):
+```bash
+pip install pandas numpy matplotlib seaborn
+##How to Run
+1️⃣ Clone this repository or download the files.
+git clone https://github.com/your-username/Case_study_on-EDA.git
+cd Case_study_on-EDA
+2️⃣ Ensure your CSV files are in the correct location:
 
-age - how old the insured person is
+For Case Study 1: Place insurance.csv in the same directory as edacasestudy1.py.
 
-sex - male or female
+For Case Study 2: Place commodity_prices.csv in the same directory as edacasestudy2.py.
 
-bmi - body mass index
+3️⃣ Run the scripts using Python:
 
-children - number of kids covered
-
-smoker - yes or no
-
-region - where they live in the US
-
-charges - the insurance cost charged to them
-
-Make sure your file is called something like insurance.csv (or update the path in the script).
-
-**💻 How to run it**
-Super simple:
-Make sure you have Python installed, along with pandas and numpy.
-pip install pandas numpy
-Put your CSV file in the same folder (or adjust the path in the script).
-
-**Run it like this:**
 python edacasestudy1.py
-And you’ll see the data summaries right in your terminal.
-**Tools used**
-Python 🐍
-pandas for data wrangling
-numpy for some handy math
-**Final note**
-I hope you find this case study useful.
-I’ve done this to improve my pandas, NumPy, and overall EDA skills.
-I plan on working on more such case studies in the near future — so stay tuned! 
+python edacasestudy2.py
+
+
+
+##Pull requests and suggestions are welcome!
+If you find bugs or have ideas for improvement, feel free to open an issue.
+
+
+
